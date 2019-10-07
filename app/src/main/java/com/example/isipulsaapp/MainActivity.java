@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.isipulsaapp.activity.PengisianPulsaActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -15,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void StartPengisianPulsa(View view) {
-        Intent intent = new Intent(this, PengisianPulsa.class);
+        Intent intent = new Intent(this, PengisianPulsaActivity.class);
         startActivity(intent);
     }
 }
