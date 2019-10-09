@@ -3,12 +3,16 @@ package com.example.isipulsaapp.fragment;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
-import androidx.fragment.app.Fragment;
+//import androidx.fragment.app.Fragment;
+import android.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.isipulsaapp.R;
 
@@ -21,17 +25,30 @@ import com.example.isipulsaapp.R;
 public class XLFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
+    private Spinner spinner;
+    //private final static int[] paths = {5000, 10000, 25000, 50000};
 
     public XLFragment() {
         // Required empty public constructor
     }
 
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_xl, container, false);
+        View view = inflater.inflate(R.layout.fragment_xl, container, false);
+        Integer[] values = {5000, 10000, 25000, 50000};
+        ArrayAdapter<Integer> adapter = new ArrayAdapter<Integer>(this.getActivity(), android.R.layout.simple_spinner_dropdown_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        TextView harga = (TextView) view;
+        switch (values){
+
+        }
+        return view;
+
     }
 
     // TODO: Rename method, update argument and hook method into UI event
