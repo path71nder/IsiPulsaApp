@@ -21,5 +21,7 @@ public class PengisianPulsaActivity extends AppCompatActivity {
         xlFragment = new XLFragment();
     }
 
+    public void onButtonSendXLClicked(){
 
+    }
 }

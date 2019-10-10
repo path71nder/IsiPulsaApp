@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="nominalXL">
+        <item>5000</item>
+        <item>10000</item>
+        <item>25000</item>
+        <item>50000</item>
+    </integer-array>
+    <integer-array name="nominalAxis">
+        <item>5500</item>
+        <item>10500</item>
+        <item>20000</item>
+    </integer-array>
+    <integer-array name="nominalSmartfren">
+        <item>5000</item>
+        <item>10500</item>
+        <item>20000</item>
+        <item>25000</item>
+    </integer-array>
+    <integer-array name="nominalIndosat">
+        <item>10000</item>
+        <item>20000</item>
+        <item>25000</item>
+        <item>50000</item>
+    </integer-array>
+    <integer-array name="nominalThree">
+        <item>5000</item>
+        <item>10000</item>
+        <item>25000</item>
+        <item>50000</item>
+    </integer-array>
+    <integer-array name="nominalTelkomsel">
+        <item>5000</item>
+        <item>10000</item>
+        <item>25000</item>
+        <item>50000</item>
+        <item>100000</item>
+    </integer-array>
+</resources>
